@@ -38,7 +38,6 @@ const login = (req,res)=>{
 
 }
 const register = (req,res)=>{
-    console.log('gggg')
     let user = new User({
         name : req.body.name,
         email : req.body.email,
